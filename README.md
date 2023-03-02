@@ -25,3 +25,15 @@ The this cleaned data should then be loaded into a central repo, like Datawareho
 * Azure Devops
 #### Solution Architecture Diagram
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/ADFProject%20Diagram.png">
+
+Four different datasets was ingested from both the ECDC website and azure blob storage into Datalake Gen2.
+They are;
+* Cases and Deaths Data
+* Hospital Admissions Data
+* Population Data
+* Test Conduncted Data
+
+We used various components of **ADF Dataflow** activities to ingest the data
+* Validatuion Activity
+* Get Metadata Activity
+* Copy Activity
