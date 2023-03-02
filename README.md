@@ -23,3 +23,5 @@ The this cleaned data should then be loaded into a central repo, like Datawareho
 * Azure Databricks Cluster
 * HD Insight Cluster
 * Azure Devops
+#### Solution Architecture Diagram
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/ADFProject%20Diagram.png">
