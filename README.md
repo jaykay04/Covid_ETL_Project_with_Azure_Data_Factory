@@ -74,6 +74,7 @@ Now that the datasets are now fully prepared, we loaded it into the SQL Dataware
 * After creating the tables, the copy activity was used to load the dataset to its respective tables in the SQL Datawarehouse.
 
 ### Result and Analysis
+#### The SQL Datawarehouse was connected to Power BI for Insights and Visualizations
 * Covid-19 Trend in the EU/EEA & UK 2020 by Cases, Deaths, Hospital Occupancy and ICU Occupancy
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/Covid-19_trend_EU_Uk.png">
 
