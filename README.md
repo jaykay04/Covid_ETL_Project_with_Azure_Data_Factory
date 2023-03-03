@@ -55,4 +55,4 @@ These set of transformations was done to make the datasets more robust and fit f
 For the Population data set, Azure databricks was solely used to transform it so that it can be robust and fit for purpose.
 The following steps was taken to transform the data on Azure Databricks.
 * Azure Datalake storage was mounted on databricks so as to allow databricks read the data into the pyspark notebook easily.
-< img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/mount_storage.png">
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/mount_storage.png">
