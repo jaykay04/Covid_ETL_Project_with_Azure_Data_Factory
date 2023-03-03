@@ -85,3 +85,8 @@ Now that the datasets are now fully prepared, we loaded it into the SQL Dataware
 
 * Total Number of Covid test carried out Vs Confirmed Cases
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/Covid%20test%20done%20per%20Country.png">
+
+### Follow Me
+* Linkedin: https://www.linkedin.com/in/joshua-gbegudu-6a7a59a9/
+* Github: github.com/jaykay04
+* Instagram: @Official_jaykay04
