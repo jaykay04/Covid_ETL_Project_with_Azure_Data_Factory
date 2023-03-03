@@ -56,3 +56,6 @@ For the Population data set, Azure databricks was solely used to transform it so
 The following steps was taken to transform the data on Azure Databricks.
 * Azure Datalake storage was mounted on databricks so as to allow databricks read the data into the pyspark notebook easily.
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/mount_storage.png">
+
+* Next the Population data was read and a temp view was created which was followed by pivoting the dataset by age group as shown below
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/read_pivot_population_data.png">
