@@ -33,7 +33,26 @@ They are;
 * Population Data
 * Test Conduncted Data
 
-We used various components of **ADF Dataflow** activities to ingest the data
-* Validatuion Activity
+We used various components of **ADF Pipeline** activities to ingest the data from both HTTP Data Source and Azure Storage Account to Azure DataLake.
+some of those activities are;
+* Validation Activity
 * Get Metadata Activity
 * Copy Activity
+
+The Cases and Deaths data together with the Hospital admissions data was trasnformed using ADF Data flows.
+The Data Flows transformation used on both dataset include;
+* Select transformation
+* LookUp transformation
+* Filter Transfomration
+* Join transformation
+* Sort transformation
+* Conditional split transofrmation
+* Derived columns trannsformation
+* Sink transformation et.c
+
+These set of transformations was done to make the datasets more robust and fit for purpose.
+
+For the Population data set, Azure databricks was solely used to transform it so that it can be robust and fit for purpose.
+The following steps was taken to transform the data on Azure Databricks.
+* Azure Datalake storage was mounted on databricks so as to allow databricks read the data into the pyspark notebook easily.
+< img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/mount_storage.png">
