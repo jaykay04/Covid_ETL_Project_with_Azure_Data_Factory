@@ -32,7 +32,7 @@ They are;
 * Cases and Deaths Data
 * Hospital Admissions Data
 * Population Data
-* Test Conduncted Data
+* Test Conducted Data
 
 We used various components of **ADF Pipeline** activities to ingest the data from both HTTP Data Source and Azure Storage Account to Azure DataLake.
 some of those activities are;
@@ -53,6 +53,8 @@ The Data Flows transformation used on both dataset include;
 * Sink transformation et.c
 
 These set of transformations was done to make the datasets more robust and fit for purpose.
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/transform_hospital_admissions.png">
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/tranform_cases_deaths.png">
 
 For the Population data set, Azure databricks was solely used to transform it so that it can be robust and fit for purpose.
 The following steps was taken to transform the data on Azure Databricks.
