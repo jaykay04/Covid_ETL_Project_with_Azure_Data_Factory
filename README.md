@@ -26,6 +26,7 @@ The this cleaned data should then be loaded into a central repo, like Datawareho
 #### Solution Architecture Diagram
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/ADFProject%20Diagram.png">
 
+#### Extraction/Ingestion
 Four different datasets was ingested from both the ECDC website and azure blob storage into Datalake Gen2.
 They are;
 * Cases and Deaths Data
@@ -39,6 +40,7 @@ some of those activities are;
 * Get Metadata Activity
 * Copy Activity
 
+#### Transformation
 The Cases and Deaths data together with the Hospital admissions data was trasnformed using ADF Data flows.
 The Data Flows transformation used on both dataset include;
 * Select transformation
@@ -60,5 +62,13 @@ The following steps was taken to transform the data on Azure Databricks.
 * Next the Population data was read and a temp view was created which was followed by pivoting the dataset by age group as shown below
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/read_pivot_population_data.png">
 
-* The LookUp data was read, followed by a Join transformation before the transformed data was written back to the mount point in ADF
+* The LookUp data was read, followed by a Join transformation before the transformed data was written back to the mount point in ADLS
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/join_tranformation_population%20data.png">
+
+#### Load
+Now that the datasets are now fully prepared, we loaded it into the SQL Datawarehouse for the Analytics team to consume with their BI tools with ease.
+* The first thing was to create the tables in the SQL database that will house each of the datasets
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/create_table_sql.png">
+* After creation of the tables, the copy activity was used to load the dataset to its respective tables in the SQL Datawarehouse.
+
+### Result and Analysis
