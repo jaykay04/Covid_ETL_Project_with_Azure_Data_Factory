@@ -71,6 +71,17 @@ The following steps was taken to transform the data on Azure Databricks.
 Now that the datasets are now fully prepared, we loaded it into the SQL Datawarehouse for the Analytics team to consume with their BI tools with ease.
 * The first thing was to create the tables in the SQL database that will house each of the datasets
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/create_table_sql.png">
-* After creation of the tables, the copy activity was used to load the dataset to its respective tables in the SQL Datawarehouse.
+* After creating the tables, the copy activity was used to load the dataset to its respective tables in the SQL Datawarehouse.
 
 ### Result and Analysis
+* Covid-19 Trend in the EU/EEA & UK 2020 by Cases, Deaths, Hospital Occupancy and ICU Occupancy
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/Covid-19_trend_EU_Uk.png">
+
+* Covid-19 Cases and Death breakdown by population in the UK, France and Germany
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/Covid-19%20Trend%20for%20UK%2C%20Germany%20and%20France.png">
+
+* Confirmed Cases Vs Total Deaths By Country
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/Number%20of%20Cases%20Vs%20Deaths%20Per%20Country.png">
+
+* Total Number of Covid test carried out Vs Confirmed Cases
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/Covid%20test%20done%20per%20Country.png">
