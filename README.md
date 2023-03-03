@@ -59,3 +59,6 @@ The following steps was taken to transform the data on Azure Databricks.
 
 * Next the Population data was read and a temp view was created which was followed by pivoting the dataset by age group as shown below
 <img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/read_pivot_population_data.png">
+
+* The LookUp data was read, followed by a Join transformation before the transformed data was written back to the mount point in ADF
+<img src="https://github.com/jaykay04/Covid_ETL_Project_with_Azure_Data_Factory/blob/main/images/join_tranformation_population%20data.png">
