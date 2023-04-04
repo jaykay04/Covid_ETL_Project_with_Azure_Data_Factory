@@ -15,7 +15,7 @@ The this cleaned data should then be loaded into a central repo, like Datawareho
 
 ### Approach
 #### Environment SetUp
-* Azure Subscroption
+* Azure Subscription
 * Data Factory 
 * Azure Blob Storage Account
 * Data Lake Storage Gen 2
