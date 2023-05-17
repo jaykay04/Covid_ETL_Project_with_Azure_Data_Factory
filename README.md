@@ -34,8 +34,8 @@ They are;
 * Population Data
 * Test Conducted Data
 
-We used various components of **ADF Pipeline** activities to ingest the data from both HTTP Data Source and Azure Storage Account to Azure DataLake.
-some of those activities are;
+We used various components of **ADF Pipeline** activities to ingest the data from both HTTP Data Source and Azure Storage Account to Azure DataLake. 
+Some of those activities are;
 * Validation Activity
 * Get Metadata Activity
 * Copy Activity
