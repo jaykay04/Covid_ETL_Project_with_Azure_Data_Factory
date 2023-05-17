@@ -7,14 +7,14 @@ Azure Data Factory (ADF) is a fully managed, serverless data integration solutio
 
 ### Situation
 We have various Covid-19 data from multiple sources. 
-Due to the fact that these dataset are scattered everywher, it was became relatively difficult to extract useful information from them at a go.
+Due to the fact that these datasets are scattered everywhere, it became relatively difficult to extract useful information from them at a go.
 
 ### Task
 The task of this project is to ingest the dataset from the various data sources, clean and transform the data to make it more robust and fit for purspose. 
-The this cleaned data should then be loaded into a central repo, like Datawarehosue and Datalake so that the analytics team can consume it with their BI tools such as Power BI. Also, we can also run ML Models on Datalake.
+The cleaned data should then be loaded into a central repo, like a Datawarehosue and Datalake so that the analytics team can consume it with their BI tools such as Power BI. Also, we can also run ML Models on Datalake.
 
 ### Approach
-#### Environment SetUp
+#### Environment Setup
 * Azure Subscription
 * Data Factory 
 * Azure Blob Storage Account
