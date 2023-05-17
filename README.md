@@ -45,11 +45,11 @@ The Cases and Deaths data together with the Hospital admissions data was trasnfo
 The Data Flows transformation used on both dataset include;
 * Select transformation
 * LookUp transformation
-* Filter Transfomration
+* Filter transformation
 * Join transformation
 * Sort transformation
-* Conditional split transofrmation
-* Derived columns trannsformation
+* Conditional split transformation
+* Derived columns transformation
 * Sink transformation et.c
 
 These set of transformations was done to make the datasets more robust and fit for purpose.
