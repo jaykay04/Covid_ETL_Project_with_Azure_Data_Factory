@@ -6,7 +6,7 @@ We want to know the impact of Covid in the European Region as a whole during the
 Azure Data Factory (ADF) is a fully managed, serverless data integration solution for ingesting, preparing, and transforming all your data at scale. It enables every organization in every industry to use it for a rich variety of use cases: data Engineering, migrating their on-premises SSIS packages to Azure, operational data integration, analytics, ingesting data into data warehouses, and more.
 
 ### Situation
-We have various Covid-19 data form multiple sources. 
+We have various Covid-19 data from multiple sources. 
 Due to the fact that these dataset are scattered everywher, it was became relatively difficult to extract useful information from them at a go.
 
 ### Task
